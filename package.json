@@ -1,0 +1,22 @@
+{
+  "name": "skeleton-builder",
+  "version": "1.0.0",
+  "description": "an app skeleton builder, build app skeleton based path provided in config file",
+  "main": "sbuilder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sbuilder",
+    "skeleton-builder",
+    "node",
+    "makedir",
+    "skeleton"
+  ],
+  "author": "deepak.m.shrma@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "nimble": "0.0.2"
+  }
+}
