@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 "use strict";
 /**
  * Created by deepak.vishwakarma on 4/25/16.
