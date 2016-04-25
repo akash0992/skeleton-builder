@@ -13,10 +13,18 @@
     "makedir",
     "skeleton"
   ],
-  "author": "deepak.m.shrma@gmail.com",
+  "author": "Deepak Vishwakarma <deepak.m.shrma@gmail.com> (https://github.com/deepakshrma/)",
   "license": "ISC",
   "dependencies": {
     "mkdirp": "^0.5.1",
-    "nimble": "0.0.2"
+    "nimble": "0.0.2",
+    "touch": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:deepakshrma/skeleton-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deepakshrma/skeleton-builder/issues"
   }
 }
