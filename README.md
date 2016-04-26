@@ -1,6 +1,14 @@
 # Skeleton Builder
 An app skeleton builder, build app skeleton based path provided in config file
 
+##Prerequisite
+>node 4.4.3 or higher, supports es6(Just for now)
+
+##Internal Dependencies
+1.  nimble, small utility library
+2.  touch, small library to create file
+3.  mkdirp, small library to create directory
+
 ##How to Install
 ```bash
 $npm install -g skeleton-builder
@@ -25,9 +33,8 @@ $skeleton-builder example.txt
 ```
 
 ##Syntax helper
-
->Path with "/" at the end, indicates current path is directory/folder
-
->Without "/" at the end, indicates current path is file
-
+```
+Path with "/" at the end, indicates current path is directory/folder
+Without "/" at the end, indicates current path is file
+```
 

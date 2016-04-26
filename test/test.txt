@@ -14,7 +14,7 @@ utils/
 ---streamHandler.js
 views/
 ---home.handlebars
----layouts/
+views/layouts/
 ------main.handlebars
 app.js
 config.js
