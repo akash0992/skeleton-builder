@@ -2,7 +2,7 @@
 An app skeleton builder, build app skeleton based path provided in config file
 
 ##Prerequisite
->node 4.4.3 or higher, supports es6(Just for now)
+>Tested on stable version of node 4.4.3LTS or higher
 
 ##Internal Dependencies
 1.  nimble, small utility library
