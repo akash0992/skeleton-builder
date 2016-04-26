@@ -1,0 +1,6 @@
+{
+  "name": "Skeleton-builder",
+  "tagline": "An app skeleton builder, build app skeleton based on path provided in config file",
+  "body": "# Skeleton Builder\r\nAn app skeleton builder, build app skeleton based path provided in config file\r\n\r\n##Prerequisite\r\n>Tested on stable version of node 4.4.3LTS or higher\r\n\r\n##Internal Dependencies\r\n1.  nimble, small utility library\r\n2.  touch, small library to create file\r\n3.  mkdirp, small library to create directory\r\n\r\n##How to Install\r\n```bash\r\n$npm install -g skeleton-builder\r\n```\r\n\r\n##How to use\r\n```\r\n#create a config file with all file name and folder\r\n#example.txt\r\ncomponents/\r\n---Loader.react.js\r\n---NotificationBar.react.js\r\n---Tweet.react.js\r\n---Tweets.react.js\r\n---TweetsApp.react.js\r\nmodels/\r\n---Tweet.js\r\n```\r\n```bash\r\n#run\r\n$skeleton-builder example.txt\r\n```\r\n\r\n##Syntax helper\r\n```\r\nPath with \"/\" at the end, indicates current path is directory/folder\r\nWithout \"/\" at the end, indicates current path is file\r\n```\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
