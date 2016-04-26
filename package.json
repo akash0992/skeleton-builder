@@ -1,6 +1,6 @@
 {
   "name": "skeleton-builder",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "an app skeleton builder, build app skeleton based path provided in config file",
   "main": "lib/sbuilder.js",
   "scripts": {
